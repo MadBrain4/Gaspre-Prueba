@@ -1,0 +1,36 @@
+{
+  "name": "gaspre",
+  "version": "1.0.0",
+  "description": "Prueba Tecnica de Gaspre",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadBrain4/GasPre.git"
+  },
+  "keywords": [
+    "GasPre",
+    "Prueba"
+  ],
+  "author": "José Vicente López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadBrain4/GasPre/issues"
+  },
+  "homepage": "https://github.com/MadBrain4/GasPre#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mariadb": "^3.2.1",
+    "zod": "3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
